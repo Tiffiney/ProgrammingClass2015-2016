@@ -1,0 +1,12 @@
+puts "How many hours do you work?"
+work_hours = gets.chomp.to_i
+puts "How much do you make per hour?"
+payper_hour = gets.chomp.to_i
+puts "How many weeks do you work"
+work_month = gets.chomp.to_i
+
+payment_month = work_hours * payper_hour
+
+salary = payment_month * work_month
+
+puts "You should make #{salary} in #{work_month} months"
